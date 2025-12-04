@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Artifact Coffee | Seasonal & Handcrafted</title>
+    <meta name="description" content="Artifact Coffee — seasonal, handcrafted food & coffee in the historic Union Mill. Open weekdays 8–3, weekends 8–4." />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              espresso: '#2B1E17',
+              warmbrown: '#6E4A32',
+              stone: '#9B9B96',
+              cream: '#F7F3EE',
+              amber: '#F2C57C',
+              'cream-dark': '#EBE5DE',
+            },
+            fontFamily: {
+              serif: ['Playfair Display', 'serif'],
+              sans: ['Inter', 'sans-serif'],
+            },
+            backgroundImage: {
+              'hero-pattern': "url('https://www.transparenttextures.com/patterns/cubes.png')",
+            }
+          }
+        }
+      }
+    </script>
+    <style>
+      /* Custom scrollbar for a polished look */
+      ::-webkit-scrollbar {
+        width: 8px;
+      }
+      ::-webkit-scrollbar-track {
+        background: #F7F3EE;
+      }
+      ::-webkit-scrollbar-thumb {
+        background: #9B9B96;
+        border-radius: 4px;
+      }
+      ::-webkit-scrollbar-thumb:hover {
+        background: #6E4A32;
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "recharts": "https://aistudiocdn.com/recharts@^3.5.1",
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "react-router-dom": "https://aistudiocdn.com/react-router-dom@^7.9.6",
+    "lucide-react": "https://aistudiocdn.com/lucide-react@^0.555.0"
+  }
+}
+</script>
+</head>
+  <body class="bg-cream text-espresso antialiased font-sans selection:bg-amber selection:text-espresso">
+    <div id="root"></div>
+  </body>
+</html>
